@@ -56,26 +56,86 @@
         div:nth-child(1){
             text-align: center;
             height: 550px;
-            padding: 50px 20px;
-            h2 {
-                
-            }
+            padding: 50px 30px;
+        }
+        div:nth-child(2){
+            text-align: center;
+            padding: 50px 35px;
+            height: 550px;
+            
+        
         }
     }
 }
 /*phones like iphone 6*/
 @media (max-width: 375px) {
+    .split {
+        div:nth-child(1){
+            padding: 50px 30px;
+            h2{
+                font-size: $iphone6-h2;
+            }
+            a{
+                margin-top: 50px;
+            }
+        }
+        div:nth-child(2){
+            padding: 60px 35px;
+            
+            p  {
+                font-size: $iphone6-p;
+            }
+        }
+    }
 }
   
 /*small phones like iphone 5*/
 @media (max-width: 350px) {
-
+    .split {
+        div:nth-child(1){
+            padding: 50px 30px;
+            h2{
+                font-size: $iphone5-h2;
+            }
+            p{
+                font-size: $iphone5-p;
+            }
+            a{
+                padding: 20px 2em;
+            }
+        }
+        div:nth-child(2){
+            padding: 60px 25px;
+            
+            p  {
+                font-size: $iphone5-p;
+            }
+        }
+    }
 }
 
 /*ipads*/
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px){
-
+    .split {
+        text-align: center;
+        div:nth-child(1){
+            padding: 50px 30px;
+            h2{
+                font-size: $ipad-h2;
+            }
+            p{
+                font-size: $ipad-p;
+            }
+        }
+        div:nth-child(2){
+            padding: 50px 25px;
+            
+            p  {
+                font-size: $ipad-p;
+            }
+        }
+    }
 }
   
