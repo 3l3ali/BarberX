@@ -1,6 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Teko:wght@500&display=swap');
+@import './variables';
+
 
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barber-x-btn {
+    font-family: 'Montserrat', sans-serif;
+    color: $light-white;
+    text-decoration: none;
+    border-radius: 0;
+    padding: 25px 3.1em;
+    border: 5px solid $barber-orange;
+
+    &:hover {
+        background-color: $barber-orange;
+        color: $light-white;
+    }
 }

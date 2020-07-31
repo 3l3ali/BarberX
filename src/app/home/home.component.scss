@@ -1,0 +1,81 @@
+@import "../../variables";
+
+.split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: $light-white;
+
+    div:nth-child(1){
+        height: 700px;
+        padding: 100px 100px 100px 35%;
+        background-color: $light-dark;
+        h2 {
+            font-family: 'Teko', sans-serif;
+            letter-spacing: 2.25px;
+            font-size: 3.5em;
+            span {
+                color: $barber-orange;
+            }
+        }
+        p {
+            margin-top: 50px;
+        }
+        a {
+            margin-top: 70px;
+        }
+    }
+    div:nth-child(2){
+        padding: 100px 35% 100px 100px;
+        height: 700px;
+        background-image: linear-gradient(rgba(0, 0,0, 0.4),rgba(0, 0, 0, 0.4)), url('../../assets/home/home1-bg1.jpg'); 
+        background-size: cover;
+        h3 {
+            font-family: 'Teko', sans-serif;
+            letter-spacing: 2.25px;
+            font-size: 2.5em;
+            span {
+                color: $barber-orange;
+            }
+        }
+        p {
+            padding-top: 20px;
+            padding-left: 10px;
+            margin-bottom: 80px;
+        }
+    
+    }
+    
+}
+
+
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    .split {
+        grid-template-columns: 1fr;
+        div:nth-child(1){
+            text-align: center;
+            height: 550px;
+            padding: 50px 20px;
+            h2 {
+                
+            }
+        }
+    }
+}
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+
+}
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+
+}
+  
