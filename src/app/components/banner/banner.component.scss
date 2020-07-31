@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 #banner {
     background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.425)), url('../../../assets/banners/banner.jpg');  
     width: 100vw;
@@ -11,11 +13,11 @@
         font-family: 'Teko', sans-serif;
         letter-spacing: 2.25px;
         font-size: 5.5em;
-        padding-top: 30vh;
-        color: #e1e1e1;
+        padding-top: 25vh;
+        color: $light-white;
 
         span {
-            color: #F36C4F;
+            color: $barber-orange;
         }
     }
 
@@ -23,7 +25,7 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 1em;
         position: relative;
-        color: #e1e1e1;
+        color: $light-white;
         margin : 0 auto;
         width: 250px;
         &::before {
@@ -31,7 +33,7 @@
             display: block;
             width: 60px;
             height: 1px;
-            background: white;
+            background: $light-white;
             position: absolute;
             top: 50%;
             left: 0;
@@ -41,10 +43,74 @@
             display: block;
             width: 60px;
             height: 1px;
-            background: white;
+            background: $light-white;
             position: absolute;
             top: 50%;
             right: 0;
         }
     }
+
+    a {
+        font-family: 'Montserrat', sans-serif;
+        color: $light-white;
+        text-decoration: none;
+        margin-top: 60px;
+        border-radius: 0;
+        padding: 25px 3.1em;
+        border: 5px solid $barber-orange;
+
+        &:hover {
+            background-color: $barber-orange;
+
+        }
+    }
 }
+
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    #banner{
+        h1 {
+            font-size: 4rem;
+        }
+        a {
+            margin-top: 85px;
+            padding: 20px 2em;
+        }
+    }
+}
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    #banner{
+        h1 {
+            font-size: 3.5rem;
+        }
+        a {
+            margin-top: 85px;
+            padding: 20px 2em;
+        }
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    #banner {
+        h1 {
+            font-size: 3rem;
+        }
+        a {
+            margin-top: 65px;
+            padding: 20px 2em;
+
+        }
+    }
+
+}
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+
+}
+  
