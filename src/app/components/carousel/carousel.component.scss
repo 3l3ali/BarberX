@@ -1,0 +1,66 @@
+@import '../../../variables';
+
+.carousel-wrapper{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $bold-dark;
+    h2{
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        font-size: 3.5em;
+        color: $light-white;
+        padding: 50px 0 40px 0;
+        span {
+            color: $barber-orange;
+        }
+    }
+
+    #work-slider{
+        width: 70vw ;
+        padding-bottom: 80px;
+    }
+}
+
+
+
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    #work-slider{
+        width: 90vw !important;
+    }
+}
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    .carousel-wrapper{
+        h2 {
+            font-size: $iphone6-h2;
+        }
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    .carousel-wrapper{
+        h2 {
+            font-size: $iphone5-h2;
+        }
+    }
+}
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    .carousel-wrapper{
+
+        h2 {
+            font-size: $ipad-h2;
+        }
+    }
+}
+  

@@ -139,3 +139,20 @@ and (max-device-width : 1024px){
     }
 }
   
+/*small tablets*/
+@media (max-width: 766px) {
+    .split {
+        grid-template-columns: 1fr;
+        text-align: center;
+        div:nth-child(1){
+            height: 550px;
+            padding: 50px 70px;
+        }
+        div:nth-child(2){
+            padding: 50px 70px;
+            height: 550px;
+            
+        
+        }
+    }
+}
