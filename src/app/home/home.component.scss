@@ -57,13 +57,20 @@
             text-align: center;
             height: 550px;
             padding: 50px 30px;
+            h2{
+                font-size: $iphone11-h2;
+            }
+            a{
+
+            }
         }
         div:nth-child(2){
             text-align: center;
             padding: 50px 35px;
             height: 550px;
-            
-        
+            p{
+                font-size: $iphone11-p;
+            }
         }
     }
 }

@@ -1,9 +1,11 @@
+@import "../../../variables";
+
 .navbar {
     font-family: 'Montserrat', sans-serif;
 }
 .navbar-custom {
     justify-content: space-between;
-    background: #030303;
+    background: $bg-black;
     box-shadow: none;
     .navbar-collapse {
         flex-grow: 0;
@@ -16,7 +18,7 @@
 }
 #navbarSupportedContent{
     a{
-        color: #e1e1e1;
+        color: $light-white;
         font-size: 16px;
     }
 }

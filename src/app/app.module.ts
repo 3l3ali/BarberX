@@ -3,22 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { BannerComponent } from './components/banner/banner.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
+import { CoreModule } from './core/core.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    NavbarComponent,
-    BannerComponent,
-    CarouselComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CoreModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
