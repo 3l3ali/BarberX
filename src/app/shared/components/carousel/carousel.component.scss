@@ -1,4 +1,4 @@
-@import '../../../variables';
+@import '../../../../variables';
 
 .carousel-wrapper{
     text-align: center;
@@ -32,6 +32,11 @@
 @media (max-width: 540px) {
     #work-slider{
         width: 90vw !important;
+    }
+    .carousel-wrapper{
+        h2{
+            font-size: $iphone11-h2;
+        }
     }
 }
 /*phones like iphone 6*/
