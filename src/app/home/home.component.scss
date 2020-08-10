@@ -49,77 +49,7 @@
 
 
 
-/*phones like iphone 11*/
-@media (max-width: 540px) {
-    .split {
-        grid-template-columns: 1fr;
-        div:nth-child(1){
-            text-align: center;
-            height: 550px;
-            padding: 50px 30px;
-            h2{
-                font-size: $iphone11-h2;
-            }
-            a{
 
-            }
-        }
-        div:nth-child(2){
-            text-align: center;
-            padding: 50px 35px;
-            height: 550px;
-            p{
-                font-size: $iphone11-p;
-            }
-        }
-    }
-}
-/*phones like iphone 6*/
-@media (max-width: 375px) {
-    .split {
-        div:nth-child(1){
-            padding: 50px 30px;
-            h2{
-                font-size: $iphone6-h2;
-            }
-            a{
-                margin-top: 50px;
-            }
-        }
-        div:nth-child(2){
-            padding: 60px 35px;
-            
-            p  {
-                font-size: $iphone6-p;
-            }
-        }
-    }
-}
-  
-/*small phones like iphone 5*/
-@media (max-width: 350px) {
-    .split {
-        div:nth-child(1){
-            padding: 50px 30px;
-            h2{
-                font-size: $iphone5-h2;
-            }
-            p{
-                font-size: $iphone5-p;
-            }
-            a{
-                padding: 20px 2em;
-            }
-        }
-        div:nth-child(2){
-            padding: 60px 25px;
-            
-            p  {
-                font-size: $iphone5-p;
-            }
-        }
-    }
-}
 
 /*ipads*/
 @media only screen
@@ -160,6 +90,77 @@ and (max-device-width : 1024px){
             height: 550px;
             
         
+        }
+    }
+}
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    .split {
+        grid-template-columns: 1fr;
+        div:nth-child(1){
+            text-align: center;
+            height: 550px;
+            padding: 50px 30px;
+            h2{
+                font-size: $iphone11-h2;
+            }
+        }
+        div:nth-child(2){
+            width: 100vw;
+            text-align: center;
+            padding: 50px 35px;
+            height: 550px;
+            p{
+                font-size: $iphone11-p;
+            }
+        }
+    }
+}
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    .split {
+        div:nth-child(1){
+            padding: 50px 20px;
+            h2{
+                font-size: $iphone6-h2;
+            }
+            a{
+                margin-top: 50px;
+                padding: 25px 2em;
+            }
+        }
+        div:nth-child(2){
+            padding: 60px 20px;
+            
+            p  {
+                font-size: $iphone6-p;
+            }
+        }
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    .split {
+        div:nth-child(1){
+            padding: 50px 30px;
+            h2{
+                font-size: $iphone5-h2;
+            }
+            p{
+                font-size: $iphone5-p;
+            }
+            a{
+                padding: 20px 2em;
+            }
+        }
+        div:nth-child(2){
+            padding: 60px 25px;
+            
+            p  {
+                font-size: $iphone5-p;
+            }
         }
     }
 }

@@ -1,0 +1,99 @@
+@import '../../../../variables';
+
+.price-wrapper{
+    background-color: $light-dark;
+    a{
+        margin-bottom: 50px;
+        color: $light-white;
+    }
+}
+
+h2 {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+    font-size: 3.5em;
+    color: $light-white;
+    padding: 50px 0 40px 0;
+    span {
+        color:$barber-orange;
+    }
+}
+
+table {
+    width: 100%;
+    margin-bottom: 80px;
+    tr {
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        font-size: 1.8em;
+        color: $light-white;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px dashed rgb(43, 43, 43);
+        margin-bottom: 25px;
+        span{
+            color: $barber-orange;
+        }
+    }
+}
+
+
+
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    h2 {
+        font-size: $ipad-h2;
+    }
+}
+
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    .price-wrapper {
+        h2{
+            font-size: $iphone11-h2;
+        }
+        table {
+            width: 90%;
+            margin: 0 auto;
+            tr {
+                font-size: 1.2em;
+            }
+        }
+        a{
+            margin-top: 40px;
+        }
+    }
+}
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    .price-wrapper{
+        h2 {
+            font-size: $iphone6-h2;
+        }
+        tr {
+            font-size: $iphone6-p;
+        }
+        a{
+            padding: 25px 2em;
+        }
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    .price-wrapper{
+        h2 {
+            font-size: $iphone5-h2;
+        }
+        tr {
+            font-size: $iphone5-p;
+        }
+        a{
+            padding: 20px 2em;
+        }
+    }
+}
