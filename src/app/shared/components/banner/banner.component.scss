@@ -55,11 +55,18 @@
 }
 
 
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+
+}
+
 /*phones like iphone 11*/
 @media (max-width: 540px) {
     #banner{
         h1 {
-            font-size: 4rem;
+            font-size: $iphone11-h1;
         }
         a {
             margin-top: 85px;
@@ -71,7 +78,7 @@
 @media (max-width: 375px) {
     #banner{
         h1 {
-            font-size: 3.5rem;
+            font-size: $iphone6-h1;
         }
         a {
             margin-top: 85px;
@@ -84,7 +91,7 @@
 @media (max-width: 350px) {
     #banner {
         h1 {
-            font-size: 3rem;
+            font-size: $iphone5-h1;
         }
         a {
             margin-top: 65px;
@@ -94,11 +101,3 @@
     }
 
 }
-
-/*ipads*/
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px){
-
-}
-  

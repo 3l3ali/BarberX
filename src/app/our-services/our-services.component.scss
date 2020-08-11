@@ -33,7 +33,84 @@
             color: $barber-orange;
         }
     }
+    p {
+        padding: 30px 0;
+    }
     img {
         max-width: 100%;
+    }
+}
+
+
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    .services-wrapper {
+        h2 {
+            font-size: $ipad-h2;
+        }
+        p {
+            text-align: center;
+        }
+    }
+}
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    #services-bg-wrapper{
+        h1 {
+            font-size: $iphone11-h1;
+        }
+    }
+    .services-wrapper{
+        h2{
+            font-size: $iphone11-h2;
+        }
+        p{
+            padding: 30px 0;
+            text-align: center;
+        }
+        a{
+            margin-bottom: 50px;
+        }
+    }
+}
+
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    #services-bg-wrapper{
+        h1 {
+            font-size: $iphone6-h1;
+        }
+    }
+    .services-wrapper{
+        h2 {
+            font-size: $iphone6-h2;
+        }
+        p {
+            font-size: $iphone6-p;
+        }
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    #services-bg-wrapper{
+        h1 {
+            font-size: $iphone5-h1;
+        }
+    }
+    .services-wrapper{
+        h2 {
+            font-size: $iphone5-h2;
+        }
+        p {
+            font-size: $iphone5-p;
+        }
+        a{
+            padding: 20px 2em;
+        }
     }
 }
