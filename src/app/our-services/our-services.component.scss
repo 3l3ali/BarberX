@@ -1,0 +1,39 @@
+@import '../../variables';
+
+#services-bg-wrapper{
+    height: 70vh;
+    background-image: url('../../assets/our-services/services-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        font-size: 5.5em;
+        color: $light-white;
+
+        span {
+            color: $barber-orange;
+        }
+    }
+}
+
+.services-wrapper{
+    padding: 80px 0;
+    background-color: $light-dark;
+    color: $light-white;
+    h2 {
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        font-size: 3.5em;
+        span {
+            color: $barber-orange;
+        }
+    }
+    img {
+        max-width: 100%;
+    }
+}
