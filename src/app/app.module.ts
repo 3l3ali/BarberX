@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { HomeModule } from './home/home.module';
 import { OurServicesModule } from './our-services/our-services.module';
+import { AppointmentsModule } from './appointments/appointments.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OurServicesModule } from './our-services/our-services.module';
     AppRoutingModule,
     CoreModule,
     HomeModule,
-    OurServicesModule
+    OurServicesModule,
+    AppointmentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
