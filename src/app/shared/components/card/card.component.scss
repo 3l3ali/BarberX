@@ -1,3 +1,26 @@
-img {
-    width: 50px;
+@import '../../../../variables';
+
+.card-wrapper{
+    background-color: $light-dark;
+    color: $light-white;
+    margin: 30px 20px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    img {
+        
+        width: 70px;
+        height: 70px;
+    }
+    h3 {
+        color: $barber-orange;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        font-size: 2.5em;
+    }
+    p {
+        padding: 0 10px;
+    }
 }

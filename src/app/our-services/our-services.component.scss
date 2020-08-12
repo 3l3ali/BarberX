@@ -41,6 +41,20 @@
     }
 }
 
+.cards-wrapper {
+    padding: 70px 0;
+    background-color: $bg-black;
+    h2{
+        font-size: 3.5em;
+        color: $light-white;
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        span{
+            color: $barber-orange;
+        }
+    }
+}
+
 
 
 /*ipads*/
@@ -53,6 +67,11 @@ and (max-device-width : 1024px){
         }
         p {
             text-align: center;
+        }
+    }
+    .cards-wrapper {
+        h2 {
+            font-size: $ipad-h2;
         }
     }
 }
@@ -76,6 +95,11 @@ and (max-device-width : 1024px){
             margin-bottom: 50px;
         }
     }
+    .cards-wrapper {
+        h2 {
+            font-size: $iphone11-h2;
+        }
+    }
 }
 
 /*phones like iphone 6*/
@@ -91,6 +115,11 @@ and (max-device-width : 1024px){
         }
         p {
             font-size: $iphone6-p;
+        }
+    }
+    .cards-wrapper {
+        h2 {
+            font-size: $iphone6-h2;
         }
     }
 }
@@ -111,6 +140,11 @@ and (max-device-width : 1024px){
         }
         a{
             padding: 20px 2em;
+        }
+    }
+    .cards-wrapper {
+        h2 {
+            font-size: $iphone5-h2;
         }
     }
 }
