@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-appointments',
@@ -9,7 +10,9 @@ export class AppointmentsComponent implements OnInit {
   head = 'BOOK AN';
   coloredHead = 'APPOINTMENT';
 
-  constructor() { }
+  constructor(private title: Title) {
+    this.title.setTitle('BarberX - Book an Appointment');
+  }
 
   ngOnInit(): void {
   }
