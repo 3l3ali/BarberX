@@ -1,6 +1,6 @@
 
 ## 💈 About  
-Frontend Angular Interface For a BarberShop (BarberX). 
+Angular App for BarberX, a Barbershop With Service Beyond Expectations.
 
 ## 🔥 Technologies  
 - Angular
