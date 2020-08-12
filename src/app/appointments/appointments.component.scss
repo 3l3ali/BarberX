@@ -1,0 +1,79 @@
+@import '../../variables';
+
+#appointments-bg-wrapper{
+    height: 70vh;
+    background-image: url('../../assets/our-services/services-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        font-size: 5.5em;
+        color: $light-white;
+
+        span {
+            color: $barber-orange;
+        }
+    }
+}
+
+.appointments-form-wrapper{
+    background-color: $light-dark;
+    form {
+        padding: 60px 0;
+        input {
+            border-radius: 0;
+        }
+        select {
+            border-radius: 0;
+        }
+    }
+    .appointment-btn {
+        background-color: transparent;
+        border: 5px solid $barber-orange;
+        color: $light-white;
+        padding-bottom: 30px;
+        &:hover {
+            background-color: $barber-orange;
+        }
+    }
+}
+
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+
+}
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    #appointments-bg-wrapper{
+        h1 {
+            font-size: $iphone11-h1;
+        }
+    }
+}
+
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    #appointments-bg-wrapper{
+        h1 {
+            font-size: $iphone6-h1;
+        }
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    #appointments-bg-wrapper{
+        h1 {
+            font-size: $iphone5-h1;
+        }
+    }
+}
