@@ -1,0 +1,19 @@
+@import '../../variables';
+
+.about-wrapper{
+    background-color: $light-dark;
+    padding: 50px 0;
+    h2{
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        font-size: 3.5em;
+        color: $light-white;
+        span{
+            color: $barber-orange;
+        }
+    }
+    p{
+        color: $light-white;
+        padding: 10px 0;
+    }
+}

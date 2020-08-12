@@ -8,6 +8,7 @@ import { HomeModule } from './home/home.module';
 import { OurServicesModule } from './our-services/our-services.module';
 import { AppointmentsModule } from './appointments/appointments.module';
 import { ContactsModule } from './contacts/contacts.module';
+import { AboutModule } from './about/about.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactsModule } from './contacts/contacts.module';
     HomeModule,
     OurServicesModule,
     AppointmentsModule,
-    ContactsModule
+    ContactsModule,
+    AboutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
