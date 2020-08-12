@@ -1,26 +1,5 @@
 @import '../../variables';
 
-#services-bg-wrapper{
-    height: 70vh;
-    background-image: url('../../assets/our-services/services-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h1 {
-        font-family: 'Teko', sans-serif;
-        letter-spacing: 2.25px;
-        font-size: 5.5em;
-        color: $light-white;
-
-        span {
-            color: $barber-orange;
-        }
-    }
-}
-
 .services-wrapper{
     padding: 80px 0;
     background-color: $light-dark;
@@ -78,11 +57,6 @@ and (max-device-width : 1024px){
 
 /*phones like iphone 11*/
 @media (max-width: 540px) {
-    #services-bg-wrapper{
-        h1 {
-            font-size: $iphone11-h1;
-        }
-    }
     .services-wrapper{
         h2{
             font-size: $iphone11-h2;
@@ -104,11 +78,6 @@ and (max-device-width : 1024px){
 
 /*phones like iphone 6*/
 @media (max-width: 375px) {
-    #services-bg-wrapper{
-        h1 {
-            font-size: $iphone6-h1;
-        }
-    }
     .services-wrapper{
         h2 {
             font-size: $iphone6-h2;
@@ -126,11 +95,6 @@ and (max-device-width : 1024px){
   
 /*small phones like iphone 5*/
 @media (max-width: 350px) {
-    #services-bg-wrapper{
-        h1 {
-            font-size: $iphone5-h1;
-        }
-    }
     .services-wrapper{
         h2 {
             font-size: $iphone5-h2;

@@ -5,11 +5,12 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { RouterModule } from '@angular/router';
 import { PriceListComponent } from './components/price-list/price-list.component';
 import { CardComponent } from './components/card/card.component';
+import { FeatureBannerComponent } from './components/feature-banner/feature-banner.component';
 
 
 
 @NgModule({
-  declarations: [BannerComponent, CarouselComponent, PriceListComponent, CardComponent],
+  declarations: [BannerComponent, CarouselComponent, PriceListComponent, CardComponent, FeatureBannerComponent],
   imports: [
     CommonModule,
     RouterModule
@@ -18,7 +19,8 @@ import { CardComponent } from './components/card/card.component';
     BannerComponent,
     CarouselComponent,
     PriceListComponent,
-    CardComponent
+    CardComponent,
+    FeatureBannerComponent
   ]
 })
 export class SharedModule { }

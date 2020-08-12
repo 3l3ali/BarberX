@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./appointments.component.scss']
 })
 export class AppointmentsComponent implements OnInit {
+  head = 'BOOK AN';
+  coloredHead = 'APPOINTMENT';
 
   constructor() { }
 

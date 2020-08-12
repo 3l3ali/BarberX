@@ -10,6 +10,8 @@ import { ICard } from '../data/icard';
 })
 export class OurServicesComponent implements OnInit {
   cards: ICard[] = CARDS;
+  head = 'OUR';
+  coloredHead = 'SERVICES';
 
   constructor(title: Title) {
     title.setTitle('BarberX - Our Services');
