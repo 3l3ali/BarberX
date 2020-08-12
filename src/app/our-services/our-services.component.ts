@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { CARDS } from '../data/cards';
+import { ICard } from '../data/icard';
 
 @Component({
   selector: 'app-our-services',
@@ -7,6 +9,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./our-services.component.scss']
 })
 export class OurServicesComponent implements OnInit {
+  cards: ICard[] = CARDS;
 
   constructor(title: Title) {
     title.setTitle('BarberX - Our Services');

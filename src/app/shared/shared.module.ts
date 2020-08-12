@@ -4,11 +4,12 @@ import { BannerComponent } from './components/banner/banner.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { RouterModule } from '@angular/router';
 import { PriceListComponent } from './components/price-list/price-list.component';
+import { CardComponent } from './components/card/card.component';
 
 
 
 @NgModule({
-  declarations: [BannerComponent, CarouselComponent, PriceListComponent],
+  declarations: [BannerComponent, CarouselComponent, PriceListComponent, CardComponent],
   imports: [
     CommonModule,
     RouterModule
@@ -16,7 +17,8 @@ import { PriceListComponent } from './components/price-list/price-list.component
   exports: [
     BannerComponent,
     CarouselComponent,
-    PriceListComponent
+    PriceListComponent,
+    CardComponent
   ]
 })
 export class SharedModule { }
