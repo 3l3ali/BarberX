@@ -7,6 +7,7 @@ import { CoreModule } from './core/core.module';
 import { HomeModule } from './home/home.module';
 import { OurServicesModule } from './our-services/our-services.module';
 import { AppointmentsModule } from './appointments/appointments.module';
+import { ContactsModule } from './contacts/contacts.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AppointmentsModule } from './appointments/appointments.module';
     CoreModule,
     HomeModule,
     OurServicesModule,
-    AppointmentsModule
+    AppointmentsModule,
+    ContactsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
